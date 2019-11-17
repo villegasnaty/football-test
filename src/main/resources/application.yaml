@@ -15,6 +15,14 @@ spring:
       hibernate:
         format_sql: true
 
+      javax:
+        persistence:
+          schema-generation:
+            create-source: metadata
+            scripts:
+              action: create
+              create-target: create.sql
+
 logging:
   level:
     org:
@@ -22,6 +30,8 @@ logging:
         web: DEBUG
 
 application:
-  footballapikey: 
+  footballapikey: 95897fa9902e49f986e937c4c0f5c529
   competitionsurl: http://api.football-data.org/v2/competitions/
   teamsurl: http://api.football-data.org/v2/teams/
+
+
