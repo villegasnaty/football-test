@@ -30,7 +30,7 @@ logging:
         web: DEBUG
 
 application:
-  footballapikey: 95897fa9902e49f986e937c4c0f5c529
+  footballapikey: 
   competitionsurl: http://api.football-data.org/v2/competitions/
   teamsurl: http://api.football-data.org/v2/teams/
 
